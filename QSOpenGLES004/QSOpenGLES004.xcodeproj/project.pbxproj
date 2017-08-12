@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		885D77F21E5E8182003A39D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D77F11E5E8182003A39D0 /* main.m */; };
+		885D77F51E5E8182003A39D0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D77F41E5E8182003A39D0 /* AppDelegate.m */; };
+		885D77F81E5E8182003A39D0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D77F71E5E8182003A39D0 /* ViewController.m */; };
+		885D77FB1E5E8182003A39D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885D77F91E5E8182003A39D0 /* Main.storyboard */; };
+		885D77FD1E5E8182003A39D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 885D77FC1E5E8182003A39D0 /* Assets.xcassets */; };
+		885D78001E5E8182003A39D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 885D77FE1E5E8182003A39D0 /* LaunchScreen.storyboard */; };
+		885D780B1E5E8182003A39D0 /* QSOpenGLES004Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D780A1E5E8182003A39D0 /* QSOpenGLES004Tests.m */; };
+		885D78161E5E8182003A39D0 /* QSOpenGLES004UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D78151E5E8182003A39D0 /* QSOpenGLES004UITests.m */; };
+		885D78251E5E81B0003A39D0 /* QSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 885D78241E5E81B0003A39D0 /* QSViewController.m */; };
+		885D78271E5E8DCE003A39D0 /* ic_dog.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 885D78261E5E8DCE003A39D0 /* ic_dog.jpeg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		885D78071E5E8182003A39D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885D77E51E5E8182003A39D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885D77EC1E5E8182003A39D0;
+			remoteInfo = QSOpenGLES004;
+		};
+		885D78121E5E8182003A39D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 885D77E51E5E8182003A39D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 885D77EC1E5E8182003A39D0;
+			remoteInfo = QSOpenGLES004;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		885D77ED1E5E8182003A39D0 /* QSOpenGLES004.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSOpenGLES004.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		885D77F11E5E8182003A39D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		885D77F31E5E8182003A39D0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		885D77F41E5E8182003A39D0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		885D77F61E5E8182003A39D0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		885D77F71E5E8182003A39D0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		885D77FA1E5E8182003A39D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		885D77FC1E5E8182003A39D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		885D77FF1E5E8182003A39D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		885D78011E5E8182003A39D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885D78061E5E8182003A39D0 /* QSOpenGLES004Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSOpenGLES004Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885D780A1E5E8182003A39D0 /* QSOpenGLES004Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSOpenGLES004Tests.m; sourceTree = "<group>"; };
+		885D780C1E5E8182003A39D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885D78111E5E8182003A39D0 /* QSOpenGLES004UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSOpenGLES004UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		885D78151E5E8182003A39D0 /* QSOpenGLES004UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSOpenGLES004UITests.m; sourceTree = "<group>"; };
+		885D78171E5E8182003A39D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		885D78231E5E81B0003A39D0 /* QSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSViewController.h; sourceTree = "<group>"; };
+		885D78241E5E81B0003A39D0 /* QSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QSViewController.m; sourceTree = "<group>"; };
+		885D78261E5E8DCE003A39D0 /* ic_dog.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ic_dog.jpeg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		885D77EA1E5E8182003A39D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885D78031E5E8182003A39D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885D780E1E5E8182003A39D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		885D77E41E5E8182003A39D0 = {
+			isa = PBXGroup;
+			children = (
+				885D77EF1E5E8182003A39D0 /* QSOpenGLES004 */,
+				885D78091E5E8182003A39D0 /* QSOpenGLES004Tests */,
+				885D78141E5E8182003A39D0 /* QSOpenGLES004UITests */,
+				885D77EE1E5E8182003A39D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		885D77EE1E5E8182003A39D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				885D77ED1E5E8182003A39D0 /* QSOpenGLES004.app */,
+				885D78061E5E8182003A39D0 /* QSOpenGLES004Tests.xctest */,
+				885D78111E5E8182003A39D0 /* QSOpenGLES004UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		885D77EF1E5E8182003A39D0 /* QSOpenGLES004 */ = {
+			isa = PBXGroup;
+			children = (
+				885D78261E5E8DCE003A39D0 /* ic_dog.jpeg */,
+				885D77F31E5E8182003A39D0 /* AppDelegate.h */,
+				885D77F41E5E8182003A39D0 /* AppDelegate.m */,
+				885D77F61E5E8182003A39D0 /* ViewController.h */,
+				885D77F71E5E8182003A39D0 /* ViewController.m */,
+				885D77F91E5E8182003A39D0 /* Main.storyboard */,
+				885D77FC1E5E8182003A39D0 /* Assets.xcassets */,
+				885D77FE1E5E8182003A39D0 /* LaunchScreen.storyboard */,
+				885D78011E5E8182003A39D0 /* Info.plist */,
+				885D77F01E5E8182003A39D0 /* Supporting Files */,
+				885D78231E5E81B0003A39D0 /* QSViewController.h */,
+				885D78241E5E81B0003A39D0 /* QSViewController.m */,
+			);
+			path = QSOpenGLES004;
+			sourceTree = "<group>";
+		};
+		885D77F01E5E8182003A39D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				885D77F11E5E8182003A39D0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		885D78091E5E8182003A39D0 /* QSOpenGLES004Tests */ = {
+			isa = PBXGroup;
+			children = (
+				885D780A1E5E8182003A39D0 /* QSOpenGLES004Tests.m */,
+				885D780C1E5E8182003A39D0 /* Info.plist */,
+			);
+			path = QSOpenGLES004Tests;
+			sourceTree = "<group>";
+		};
+		885D78141E5E8182003A39D0 /* QSOpenGLES004UITests */ = {
+			isa = PBXGroup;
+			children = (
+				885D78151E5E8182003A39D0 /* QSOpenGLES004UITests.m */,
+				885D78171E5E8182003A39D0 /* Info.plist */,
+			);
+			path = QSOpenGLES004UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		885D77EC1E5E8182003A39D0 /* QSOpenGLES004 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885D781A1E5E8182003A39D0 /* Build configuration list for PBXNativeTarget "QSOpenGLES004" */;
+			buildPhases = (
+				885D77E91E5E8182003A39D0 /* Sources */,
+				885D77EA1E5E8182003A39D0 /* Frameworks */,
+				885D77EB1E5E8182003A39D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSOpenGLES004;
+			productName = QSOpenGLES004;
+			productReference = 885D77ED1E5E8182003A39D0 /* QSOpenGLES004.app */;
+			productType = "com.apple.product-type.application";
+		};
+		885D78051E5E8182003A39D0 /* QSOpenGLES004Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885D781D1E5E8182003A39D0 /* Build configuration list for PBXNativeTarget "QSOpenGLES004Tests" */;
+			buildPhases = (
+				885D78021E5E8182003A39D0 /* Sources */,
+				885D78031E5E8182003A39D0 /* Frameworks */,
+				885D78041E5E8182003A39D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885D78081E5E8182003A39D0 /* PBXTargetDependency */,
+			);
+			name = QSOpenGLES004Tests;
+			productName = QSOpenGLES004Tests;
+			productReference = 885D78061E5E8182003A39D0 /* QSOpenGLES004Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		885D78101E5E8182003A39D0 /* QSOpenGLES004UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 885D78201E5E8182003A39D0 /* Build configuration list for PBXNativeTarget "QSOpenGLES004UITests" */;
+			buildPhases = (
+				885D780D1E5E8182003A39D0 /* Sources */,
+				885D780E1E5E8182003A39D0 /* Frameworks */,
+				885D780F1E5E8182003A39D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				885D78131E5E8182003A39D0 /* PBXTargetDependency */,
+			);
+			name = QSOpenGLES004UITests;
+			productName = QSOpenGLES004UITests;
+			productReference = 885D78111E5E8182003A39D0 /* QSOpenGLES004UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		885D77E51E5E8182003A39D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = shaoqing;
+				TargetAttributes = {
+					885D77EC1E5E8182003A39D0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					885D78051E5E8182003A39D0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 885D77EC1E5E8182003A39D0;
+					};
+					885D78101E5E8182003A39D0 = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 885D77EC1E5E8182003A39D0;
+					};
+				};
+			};
+			buildConfigurationList = 885D77E81E5E8182003A39D0 /* Build configuration list for PBXProject "QSOpenGLES004" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 885D77E41E5E8182003A39D0;
+			productRefGroup = 885D77EE1E5E8182003A39D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				885D77EC1E5E8182003A39D0 /* QSOpenGLES004 */,
+				885D78051E5E8182003A39D0 /* QSOpenGLES004Tests */,
+				885D78101E5E8182003A39D0 /* QSOpenGLES004UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		885D77EB1E5E8182003A39D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885D78271E5E8DCE003A39D0 /* ic_dog.jpeg in Resources */,
+				885D78001E5E8182003A39D0 /* LaunchScreen.storyboard in Resources */,
+				885D77FD1E5E8182003A39D0 /* Assets.xcassets in Resources */,
+				885D77FB1E5E8182003A39D0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885D78041E5E8182003A39D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885D780F1E5E8182003A39D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		885D77E91E5E8182003A39D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885D78251E5E81B0003A39D0 /* QSViewController.m in Sources */,
+				885D77F81E5E8182003A39D0 /* ViewController.m in Sources */,
+				885D77F51E5E8182003A39D0 /* AppDelegate.m in Sources */,
+				885D77F21E5E8182003A39D0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885D78021E5E8182003A39D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885D780B1E5E8182003A39D0 /* QSOpenGLES004Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		885D780D1E5E8182003A39D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				885D78161E5E8182003A39D0 /* QSOpenGLES004UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		885D78081E5E8182003A39D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885D77EC1E5E8182003A39D0 /* QSOpenGLES004 */;
+			targetProxy = 885D78071E5E8182003A39D0 /* PBXContainerItemProxy */;
+		};
+		885D78131E5E8182003A39D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 885D77EC1E5E8182003A39D0 /* QSOpenGLES004 */;
+			targetProxy = 885D78121E5E8182003A39D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		885D77F91E5E8182003A39D0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885D77FA1E5E8182003A39D0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		885D77FE1E5E8182003A39D0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				885D77FF1E5E8182003A39D0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		885D78181E5E8182003A39D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		885D78191E5E8182003A39D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		885D781B1E5E8182003A39D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QSOpenGLES004/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QSOpenGLES004;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		885D781C1E5E8182003A39D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QSOpenGLES004/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QSOpenGLES004;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		885D781E1E5E8182003A39D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QSOpenGLES004Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QSOpenGLES004Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSOpenGLES004.app/QSOpenGLES004";
+			};
+			name = Debug;
+		};
+		885D781F1E5E8182003A39D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QSOpenGLES004Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QSOpenGLES004Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSOpenGLES004.app/QSOpenGLES004";
+			};
+			name = Release;
+		};
+		885D78211E5E8182003A39D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QSOpenGLES004UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QSOpenGLES004UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QSOpenGLES004;
+			};
+			name = Debug;
+		};
+		885D78221E5E8182003A39D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QSOpenGLES004UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.QSOpenGLES004UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QSOpenGLES004;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		885D77E81E5E8182003A39D0 /* Build configuration list for PBXProject "QSOpenGLES004" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885D78181E5E8182003A39D0 /* Debug */,
+				885D78191E5E8182003A39D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		885D781A1E5E8182003A39D0 /* Build configuration list for PBXNativeTarget "QSOpenGLES004" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885D781B1E5E8182003A39D0 /* Debug */,
+				885D781C1E5E8182003A39D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885D781D1E5E8182003A39D0 /* Build configuration list for PBXNativeTarget "QSOpenGLES004Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885D781E1E5E8182003A39D0 /* Debug */,
+				885D781F1E5E8182003A39D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		885D78201E5E8182003A39D0 /* Build configuration list for PBXNativeTarget "QSOpenGLES004UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				885D78211E5E8182003A39D0 /* Debug */,
+				885D78221E5E8182003A39D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 885D77E51E5E8182003A39D0 /* Project object */;
+}
